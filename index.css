@@ -1,0 +1,44 @@
+@font-face {
+    src: url("DS-DIGIT.TTF");
+    font-family:DS-DIGIT;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: #1B244A;
+    color: white;    
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around; 
+}
+
+#home-score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    font-family:DS-DIGIT;
+}
+
+#guest-score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    font-family:DS-DIGIT;
+}
+
+button{
+    border-color: #9AABD8 ;
+    background:#1B244A;
+    color:#9AABD8;
+    font-size: 25px;
+    font-family:Cursed Timer ULiL;
+    font-family:DS-DIGIT;
+}
